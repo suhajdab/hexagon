@@ -19,14 +19,29 @@
             <svg height="300" width="500"></svg>
         </div>
     </main>
-    
+
     <footer>
-        The Hexagon, a project evaluation tool by <a href="https://ustwo.com/">ustwo</a> 
-        | <a href="https://youtu.be/dalU4T1_Yco?t=7m7s">Learn more</a> 
-        | Webapp by <a href="https://twitter.com/IoTnerd">@IoTnerd</a></footer>
+        The Hexagon, a project evaluation tool by <a href="https://ustwo.com/">ustwo</a> | <a href="https://youtu.be/dalU4T1_Yco?t=7m7s">Learn more</a> | Webapp by <a href="https://twitter.com/IoTnerd">@IoTnerd</a>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
     <script src="js/hexagon.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-207925-23', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
 
 </html>
